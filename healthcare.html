@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Hololens</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/4739b20661.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo-align">
+                    <img class="logo1" src="logo1.png">
+                    <img  class="logo2" src="logo2.png">
+                </div>
+                <div class="menu-bar">
+                    <ul>
+                        <li>
+                      <a href="index.html"> <i class="fas fa-home"></i> Home</a>
+                      <a href="manufacturing.html"><i class="fa fa-industry" aria-hidden="true"></i> Manufacturing</a> 
+                      <a href="engineering.html"> <i class="fas fa-hard-hat"></i> Engineering</a>
+                      <a href="healthcare.html" class="active"><i class="fa-solid fa-notes-medical"></i> Healthcare</a>
+                      <a href="education.html"><i class="fas fa-book-open"></i> Education</a>
+                      <a href="contactus.html"><i class="fa fa-address-book" aria-hidden="true"></i> Contact Us</a>
+                      <li>
+                      </ul>
+                </div>
+                <div class="navbar-bottom">
+                    <div class="login-buttons">
+                        <a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In</a>&nbsp
+                        <a href="sign up.html"><i class="fa-solid fa-user-plus"></i> Sign Up</a>
+                    </div>
+                    <div class="feedback-button">
+                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> Feedback</a>
+                    </div>
+                </div>
+            </div>
+           
+            
+            <div class="col-md-8">
+                <div class="video">
+                    <video controls>
+                        <source src="https://wus-streaming-video-rt-microsoft-com.akamaized.net/34693df0-f3d2-4f79-a882-c0088ba94e0d/dba61f87-35a7-4970-9b82-d06b2e0d_6750.mp4 "type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>
+                </div>
+                
+               <table class="healthcaretable">
+                <a href="healthcare.html">
+                <tr>
+                    <td class="tabledata1">
+                        <img src="service5.png" alt=" ">
+                      <h1> Healthcare </h1> 
+                       <p>Empower teams to work securely and enhance patient treatment reducing time-to-care. With HoloLens 2, health professionals can connect with remote experts, and call up patient data and go beyond x-rays to consult MRI images in 3D at the point of care.</p>
+                    </td>
+                    <td class="tabledata2">
+                       <h2>30%</h2> 
+                        <h6>Decrease in ward round time.</h6>
+                        <p>See how Imperial College NHS Trust doctors better served patients with remote consultations.</p> 
+                       
+                    </td>
+                    <td class="tabledata3">
+                        <h2>20</h2>
+                        <h6>Minutes to train medical staff.</h6>
+                        <p>Learn how Sheba Medical Center trained medical staff how to operate a physical ventilator.</p>
+                       
+                    </td>
+                </tr>
+                </a>
+                    
+                
+               </table>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+// Initialize Swiper
+var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+
+</script>
+</html>

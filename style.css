@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: solid;
+    color:red;
+}
+ul{
+    list-style-type: none;
+    padding: 0%;
+}
+li a{
+    display: block;
+    color: #737373;
+    padding: 10px 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #F25022
+}
+
+.active{
+    background-color: rgb(255, 255, 255);
+    color: #F25022
+}
+
+.col-md-4{
+    text-align: center;
+    width: 25%;
+    height: 100vh;
+    background: #a8ff78;
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    background: linear-gradient(to top, #2afea5, #fbfffd);
+    position: relative;
+}
+.col-md-8{
+    width: 75%;
+    background: #191919;
+    position: relative;
+
+}
+
+.row{
+    display: flex;
+}
+.logo1{
+    width: 9rem;
+    margin-top: 3rem;
+}
+.logo2{
+    width: 13rem;
+}
+.logo-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-bar{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.nav{
+    width:100px;
+    position:relative;
+}
+
+.navbar-bottom{
+    background: #fff;
+    padding: 14px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   
+}
+
+.navbar-bottom a{
+    color: #737373;
+    font-size: 18px;
+    margin-right: 15px;
+    font-weight: 500;
+}
+.feedback-button{
+    margin-top: 10px;
+}   
+.mySwiper img{
+    height: 100vh;
+}
+td{
+    color:white;
+}
+.tabledata1{
+    width: 50%;
+    padding: 3rem;
+}
+.tabledata2{
+    width: 25%;
+    padding: 3rem 1rem;
+}
+.tabledata3{
+    width: 25%;
+    padding: 3rem 1rem;
+}
+.manufacturingtable{
+    width: 100%;
+    position: absolute;
+    bottom: 3rem;
+}
+.manufacturingtable h2{
+    font-size: 4rem;
+    margin: 0;
+}
+.manufacturingtable h6{
+    font-size: 15px;
+    margin: 10px 0 ;
+}
+.video{
+    text-align: center;
+}
+video{
+    margin-top: 2rem;
+    width: 80%;
+}
+.contactustable img{
+    position:absolute;
+    margin: 50px;
+    padding-top: 50px;
+    height: 100vh;
+    width: 100%
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}

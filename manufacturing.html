@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Hololens</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/4739b20661.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="logo-align">
+                    <img class="logo1" src="logo1.png">
+                    <img  class="logo2" src="logo2.png">
+                </div>
+                <div class="menu-bar">
+                    <ul>
+                        <li>
+                      <a href="index.html"> <i class="fas fa-home"></i> Home</a>
+                      <a href="manufacturing.html" class="active"><i class="fa fa-industry" aria-hidden="true"></i> Manufacturing</a> 
+                      <a href="engineering.html"> <i class="fas fa-hard-hat"></i> Engineering</a>
+                      <a href="healthcare.html"><i class="fa-solid fa-notes-medical"></i> Healthcare</a>
+                      <a href="education.html"><i class="fas fa-book-open"></i> Education</a>
+                      <a href="contactus.html"><i class="fa fa-address-book" aria-hidden="true"></i> Contact Us</a>
+                      <li>
+                      </ul>
+                </div>
+                <div class="navbar-bottom">
+                    <div class="login-buttons">
+                        <a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign In</a>&nbsp
+                        <a href="sign up.html"><i class="fa-solid fa-user-plus"></i> Sign Up</a>
+                    </div>
+                    <div class="feedback-button">
+                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> Feedback</a>
+                    </div>
+                </div>
+            </div>
+           
+            
+            <div class="col-md-8">
+                <div class="video">
+                    <video controls>
+                        <source src="manufacturing.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>
+                </div>
+               <table class="manufacturingtable">
+                <tr>
+                    <td class="tabledata1">
+                        <img src="service1.png" alt="">
+                      <h1> Manufacturing </h1> 
+                       <p> Reduce downtime, transform your workforce, and build more agile factories. With HoloLens 2, employees can quickly learn complex tasks and collaborate in the moment from anywhere.</p>
+                    </td>
+                    <td class="tabledata2">
+                       <h2>90 %</h2> 
+                        <h6>Increase in efficiency.</h6>
+                        <p>Learn how Lockheed Martin streamlined its assembly process.</p> 
+                        <a href="">Watch Video <i class="fa-solid fa-angle-right"></i></a>
+                    </td>
+                    <td class="tabledata3">
+                        <h2>40 %</h2>
+                        <h6>Reduction in travel.</h6>
+                        <p>See how Mercedes-Benz is improving technician efficiency and lowering its carbon footprint with remote assistance.</p>
+                        <a href="">Watch Video <i class="fa-solid fa-angle-right"></i></a>
+                    </td>
+                </tr>
+                
+                    
+                
+               </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+// Initialize Swiper
+var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+
+</script>
+</html>
